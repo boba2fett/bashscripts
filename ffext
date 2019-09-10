@@ -1,0 +1,9 @@
+#!/bin/bash
+search=$1
+replace=$2
+for name in $search; do
+echo "$name => "${name%search}$replace""; # show whats happening
+ffmpeg -i "$name" "${name%$search}$replace"; # convert via ffmpeg
+done
+
+#Usage: ffext "*.mp3" ".ogg"
