@@ -1,0 +1,8 @@
+#!/bin/bash
+while [ $(date +%H%M) -ne $1 ]; do
+    sleep 55
+done
+# simply to wait for a specific time to reach
+# example: waitfor 1234
+# will wait to 12:34
+# may be useful to plan downloads in a way: waitfor 0300;wget https://bigdatas.com/download....
