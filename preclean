@@ -1,0 +1,5 @@
+#!/bin/bash
+# $1 is what to remove from the beginning of filename
+for i in  "$1"*;do mv "$i" "${i#"$1"}";done
+ls # to ensure everything worked the way you wanted
+# note: detox may be useful (cleans up filenames)
