@@ -8,3 +8,5 @@ Simple remove an prefix of a filename
 Simple time-planning tool
 ## cleara
 clean all logs
+## easyip
+easy script for just displaying local ipv4 address
