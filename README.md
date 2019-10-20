@@ -10,3 +10,7 @@ Simple time-planning tool
 clean all logs
 ## easyip
 easy script for just displaying local ipv4 address
+## bruteencoding
+try encodings until a phrase you think to be unique is in the decoded file
+
+mostly you should use one of (or the lastes) ISO encodings
