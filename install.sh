@@ -1,2 +1,2 @@
 #!/bin/bash
-cp scripts/* /usr/sbin
+cp scripts/* /usr/local/bin/
