@@ -14,3 +14,5 @@ easy script for just displaying local ipv4 address
 try encodings until a phrase you think to be unique is in the decoded file
 
 mostly you should use one of (or the lastes) ISO encodings
+## mousepos
+easy mouseposition in x:XXX y:YYY
