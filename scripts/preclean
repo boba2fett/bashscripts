@@ -3,3 +3,5 @@
 for i in  "$1"*;do mv "$i" "${i#"$1"}";done
 ls # to ensure everything worked the way you wanted
 # note: detox may be useful (cleans up filenames)
+# another option would be rename "s/zuLöschendePhrase(.{1,})/$1/"
+# but with this you can use tab completion for similar files
