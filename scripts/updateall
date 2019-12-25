@@ -1,0 +1,5 @@
+apt update
+apt dist-upgrade -y
+apt full-upgrade -y
+apt upgrade -y
+apt autoremove -y
