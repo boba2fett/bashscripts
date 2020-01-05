@@ -1,10 +1,6 @@
 #!/bin/bash
-if [ -n "$2" ];then
-	for a in $(iconv --list | sed "s/\/\/$//" | sort); do
-	  iconv -f $a -t UTF-8 $1 > /dev/null 2>&1 && iconv -f $a -t UTF-8 $1 | grep -q $2 && echo $a
-	done
-else
-	echo "Specify a phrase to search for"
-fi
-
-# Usage bruteencoding file.txt searchphrase
+for a in $(iconv --list | sed "s/\/\/$//" | sort); do
+    iconv -f $a -t UTF-8 $1 > /dev/null 2>&1 && iconv -f $a -t UTF-8 $1 | grep -q $2 && echo $a
+done
+#$1 file
+#$2 occuring-phrase

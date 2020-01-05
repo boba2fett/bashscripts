@@ -1,7 +1,3 @@
 #!/bin/bash
-if [ -n "$1" ];then
-	cat $1 | sed s/ä/ae/g | sed s/ö/oe/g | sed s/ü/ue/g | sed s/ß/ss/g | sed s/Ä/Ae/g | sed s/Ö/Oe/g | sed s/Ü/Ue/g | sed s/ẞ/Ss/g
-else
-	echo "Specify a file to read"
-fi
-#
+cat $1 | sed s/ä/ae/g | sed s/ö/oe/g | sed s/ü/ue/g | sed s/ß/ss/g | sed s/Ä/Ae/g | sed s/Ö/Oe/g | sed s/Ü/Ue/g | sed s/ẞ/Ss/g
+#$1 file

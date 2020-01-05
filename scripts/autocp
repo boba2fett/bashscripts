@@ -2,7 +2,7 @@
 BASEDIR="/mnt"
 TARGET="SAVES"
 mkdir $TARGET
-PARTITION=$1
+PARTITION=$1 # dev/sd[0-9]+
 MOUNTPOINT=$BASEDIR/`echo $PARTITION | egrep -o sd.[0-9]+`
 mkdir -p $MOUNTPOINT
 mount $PARTITION $MOUNTPOINT
@@ -15,4 +15,3 @@ if [ $? -eq 0 ] ; then
 else
 	rm -r $MOUNTPOINT
 fi
-exit 0
