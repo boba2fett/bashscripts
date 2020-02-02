@@ -1,11 +1,13 @@
 # bashscripts
 A simple collection of some odd, but maybe useful scripts
+
+Use the deb file to install is easiest i think
 ## autocp
 automount and copy of all files of a device
 
 autocp /dev/sdd
 ## bruteencoding
-Find a possible encoding for a file
+Find a possible encoding for a file given a phrase that should occure in the file when the right encoding is used
 
 bruteencoding text.txt "schräge"
 ## cleara
@@ -19,7 +21,7 @@ cpfromsubdir filebeginningwith* targetdir
 ## detoxcontent
 detox german files from öÖäÄüÜßẞ
 
-detoxcontent germantext.txt > detoxedfile.txt
+detoxcontent text.txt > detoxed.txt
 ## downyt
 my std configuration for youtube-dl
 
@@ -29,7 +31,7 @@ my std configuration for youtube-dl music downloading
 
 downytmusic "https://www.youtube.com/watch?v=cXVIAkYFlSg"
 ## easyip
-get just the ip
+get just the ipv4
 
 easyip
 ## ffext
@@ -48,10 +50,10 @@ preclean
 simple password generating for given length
 
 pwgen 10
-## updateall
+## upa
 update everything for lasy people
 
-updateall
+upa
 ## waitfor
 Simple time-planning tool
 
