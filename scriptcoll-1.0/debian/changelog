@@ -1,0 +1,5 @@
+scriptcoll (1.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- mypc <mypc@unknown>  Sun, 02 Feb 2020 17:50:31 +0100

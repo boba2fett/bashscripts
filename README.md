@@ -46,10 +46,6 @@ mousepos
 Simple remove an prefix of a filename (same as rename "s/delphrase(.*)/$1/") but with tab autocompletion) (detox may be useful)
 
 preclean
-## pwgen
-simple password generating for given length
-
-pwgen 10
 ## upa
 update everything for lasy people
 

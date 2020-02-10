@@ -1,0 +1,6 @@
+#!/bin/bash
+for a in $(iconv --list | sed "s/\/\/$//" | sort); do
+    iconv -f $a -t UTF-8 $1 > /dev/null 2>&1 && iconv -f $a -t UTF-8 $1 | grep -q $2 && echo $a
+done
+#$1 file
+#$2 occuring-phrase

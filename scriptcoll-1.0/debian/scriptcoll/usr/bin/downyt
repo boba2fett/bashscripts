@@ -1,0 +1,2 @@
+#!/bin/bash
+youtube-dl -o "%(title)s.%(ext)s" -i -R infinite --fragment-retries infinite "$@"

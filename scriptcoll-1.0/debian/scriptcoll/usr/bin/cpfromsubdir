@@ -1,0 +1,4 @@
+#!/bin/bash
+find . -name "$1" -type f -print|xargs -I '{}' cp '{}' $2
+#$1 searchpattern
+#$2 targetdir

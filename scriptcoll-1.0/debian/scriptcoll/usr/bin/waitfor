@@ -1,0 +1,5 @@
+#!/bin/bash
+while [ $(date +%H%M) -ne $1 ]; do
+    sleep 55
+done
+#$1 time
