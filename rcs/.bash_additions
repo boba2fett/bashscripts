@@ -1,0 +1,50 @@
+#### STARTUP ####
+#echo "Using bash_additions"
+
+
+#### ALIASES ####
+#alias ll="ls -lhA"
+
+
+#### FUNCTIONS ####
+
+# Make new directory (or hierarchy of directories) and change into it.
+# Takes one parameter: The directory name (or relative or absolute path, e.g. new/directories/in/a/hierarchy).
+mkcd() {
+  #echo "Creating directory '$1' and changing into it. Current directory is $(pwd)"
+  mkdir -p $1
+  cd $1
+  #echo "Current directory is $(pwd)"
+}
+
+# git clone, then cd into the created directory.
+# Takes one parameter: The git repo (e.g. git@github.com:statisticsnorway/bash_additions.git)
+clonecd() {
+  #echo "Doing git clone using repo '$1'"
+  git clone $1
+
+  reponame=$(basename $1 .git)
+  #echo "Changing directory to $reponame"
+  cd $reponame
+}
+
+# git add, commit and push.
+# Takes one parameter: A commit message. (If no parameter is supplied, the script will not do anything...)
+acp(){
+  if [ -z "$1" ]; then
+    echo "No message provided. Please provide a commit message, like so: acp \"My commit message\""
+  else
+    #echo "Doing git add, commit and push using message '$1'"
+    git add .
+    git commit -am "$1"
+    #echo "Checking whether origin is set"
+    remote=$(git rev-parse --abbrev-ref --symbolic-full-name @{u})
+    if [ ! -z "$remote" ]; then
+      #echo "Origin set, pushing"
+      git push
+    else
+      echo "No origin set, setting origin and performing push"
+      git push --set-upstream origin `git rev-parse --abbrev-ref HEAD`
+    fi
+  fi
+}
