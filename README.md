@@ -2,6 +2,8 @@
 A simple collection of some odd, but maybe useful scripts
 
 Use the deb file to install is easiest i think
+
+The rcs directory is for the preferences I like to use for rc files just place them in your home folder
 ## autocp
 automount and copy of all files of a device
 
