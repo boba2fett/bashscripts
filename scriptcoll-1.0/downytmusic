@@ -1,2 +1,2 @@
 #!/bin/bash
-youtube-dl -o "%(title)s.%(ext)s" -x -i --audio-format vorbis -R infinite --fragment-retries infinite "$@"
+youtube-dl -o "%(title)s.%(ext)s" -x -i --audio-format mp3 -R infinite --fragment-retries infinite "$@"

@@ -8,7 +8,7 @@ Description: <short summary of the patch>
  scriptcoll (1.0-1) unstable; urgency=medium
  .
    * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
-Author: mypc <mypc@unknown>
+Author: boba2fett <boba2002fett@gmail.com>
 
 ---
 The information above should follow the Patch Tagging Guidelines, please
