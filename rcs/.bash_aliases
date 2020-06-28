@@ -1,5 +1,5 @@
-if [ -f ~/.bashadditions ]; then
-    . ~/.bashadditions
+if [ -f ~/.bash_additions ]; then
+    . ~/.bash_additions
 fi
 
 alias s="sudo"
