@@ -1,9 +1,0 @@
-Package: scriptcoll
-Version: 1.0-1
-Architecture: amd64
-Maintainer: boba2fett <boba2002fett@gmail.com>
-Installed-Size: 25
-Section: unknown
-Priority: optional
-Homepage: 
-Description: A Collection of more and less useful scripts

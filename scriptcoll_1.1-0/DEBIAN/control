@@ -1,0 +1,9 @@
+Package: scriptcoll
+Version: 1.1-1
+Section: base
+Priority: optional
+Architecture: all
+Depends: youtube-dl, ffmpeg, xdotool
+Maintainer: b2F <boba2002fett@gmail.com>
+Description: Script Collection
+ When you need some shit, use this
