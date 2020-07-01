@@ -46,6 +46,15 @@ easyip
 Simple change between ffmpeg compatible formats for whole directories
 
 ffext "*.mp3" ".ogg"
+## forcegitignore
+force a .gitignore file by deleting the cache and the readding all files
+automatic commit and push afterwards
+
+forcegitignore
+## inxclip
+Puts everything from stdin into clipboard
+
+echo -n "asdf"|inxclip
 ## mousepos
 easy mouseposition in x:XXX y:YYY
 
