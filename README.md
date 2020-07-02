@@ -2,8 +2,8 @@
 A simple collection of some odd, but maybe useful scripts
 
 ```bash
-dpkg-deb --build scriptcoll_1.1-0/
-sudo dpkg -i scriptcoll_1.1-0.deb
+dpkg-deb --build scriptcoll/
+sudo dpkg -i scriptcoll.deb
 ```
 Use the deb file to install is easiest i think
 
