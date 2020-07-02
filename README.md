@@ -27,7 +27,6 @@ cleara
 ```
 ## cpfromsubdir
 cp all files containing a string from subdir
-Uneccesarry deprecated
 ```
 cpfromsubdir filebeginningwith* targetdir 
 ```
