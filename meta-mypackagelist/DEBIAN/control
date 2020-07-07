@@ -1,0 +1,9 @@
+Package: meta-mypackagelist
+Version: 1.0-0
+Section: base
+Priority: optional
+Architecture: all
+Depends: hashcat, hydra, nmap, kdenlive, audacious, audacity, pinta, gimp, spotify-client, obs-studio, telegram-desktop, git, vim, openjdk-8-jre, openjdk-11-jre, mc, moc, virtualbox
+Maintainer: b2f <boba2002fett@gmail.com>
+Description: Meta Collection
+ A Meta package for everything i want in a linux system
