@@ -4,6 +4,6 @@ Section: base
 Priority: optional
 Architecture: all
 Depends: youtube-dl, ffmpeg, xdotool, git, xclip
-Maintainer: b2F <boba2002fett@gmail.com>
+Maintainer: b2f3t <boba2002fett@gmail.com>
 Description: Script Collection
  When you need some shit, use this
