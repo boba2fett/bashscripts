@@ -1,0 +1,3 @@
+#!/bin/bash
+apt-get remove --purge nvidia-*
+rm -rf /etc/X11/xorg.conf

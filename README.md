@@ -82,7 +82,7 @@ update everything for lasy people
 upa
 ```
 ## waitfor
-Simple time-planning tool
+Simple time-planning tool example to wait until 03:00
 ```
 waitfor 0300
 ```

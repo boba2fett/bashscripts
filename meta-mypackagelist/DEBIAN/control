@@ -3,7 +3,7 @@ Version: 1.0-3
 Section: base
 Priority: optional
 Architecture: all
-Depends: hashcat, hydra, nmap, kdenlive, audacious, audacity, pinta, gimp, spotify-client, obs-studio, telegram-desktop, git, vim, openjdk-8-jre, openjdk-11-jre, mc, moc, virtualbox, hub, docker, docker-compose, torbrowser-launcher
+Depends: hashcat, hydra, nmap, kdenlive, audacious, audacity, pinta, gimp, spotify-client, obs-studio, telegram-desktop, git, vim, openjdk-8-jre, openjdk-11-jre, mc, moc, virtualbox, hub, docker, docker-compose, torbrowser-launcher, bless
 Maintainer: b2f3t <boba2002fett@gmail.com>
 Description: Meta Collection
  A Meta package for everything i want in a linux system
